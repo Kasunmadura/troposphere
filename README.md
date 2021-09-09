@@ -1,14 +1,9 @@
-About
+Hand on with Troposphere
 =====
 
 troposphere - library to create `AWS CloudFormation`_ descriptions
 
-The troposphere library allows for easier creation of the `AWS CloudFormation
-JSON`_ by writing Python code to describe the AWS resources. troposphere also
-includes some basic support for `OpenStack resources`_ via Heat.
-
-To facilitate catching CloudFormation or JSON errors early the library has
-property and type checking built into the classes.
+This is repo help you to do some hand on experiance in troposphere
 
 Installation
 ============
@@ -68,4 +63,3 @@ A simple example to create an instance would look like this:
                 ImageId: ami-951945d0
                 InstanceType: t1.micro
             Type: AWS::EC2::Instance
-
